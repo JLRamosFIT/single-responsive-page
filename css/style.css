@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
+
+main{
+	background-image: url("../images/bkg.jpg");
+	background-size: cover;
+}
+
+main div{
+	text-align: center;
+}
+
+main button{
+	margin-top: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 48px;
+	font-weight: bolder;
+	padding-top: 40px;
+	margin-bottom: 5px;
+	color: #c7c7c7;
+	letter-spacing: 10px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	line-height: 24px;
+	background-color: aliceblue;
+}
+
+header{
+	background-color:#262626;
+}
+
+nav ul{
+	list-style: none;
+	display:flex;
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 26px;
+	color:#C7C7C7;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav a:hover{
+	color: #262626;
+	background-color: #C7C7C7;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 32px;
+	color: #262626;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h4{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	color: #262626;
+	margin-top: 5px;
+}
+
+#WebDevSection{
+	display: flex;
+	margin:0 auto;
+}
+
+h2{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:100%;
+}
+
+img{
+	margin: auto;
+	display: block;
+}
+
+
+p{
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+}
+
+footer{
+	font-weight: bold;
+	margin: 30px;
+}
